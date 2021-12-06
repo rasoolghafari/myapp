@@ -1,0 +1,16 @@
+spring:
+  security:
+    user:
+      name: admin
+      password: admin
+      roles:
+        - ADMIN
+        - OAUTH2
+        - ACL
+
+server:
+  port: 8083
+
+myapp:
+  acl:
+    enabled: true
